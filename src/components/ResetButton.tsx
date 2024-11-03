@@ -2,7 +2,7 @@ import React from 'react';
 import { useCounter } from './CounterContext';
 
 const ResetButton: React.FC = () => {
-  const { reset } = useCounter();
+  const { reset } :any= useCounter();
 
   return (
     <button onClick={reset}>Reset</button>
